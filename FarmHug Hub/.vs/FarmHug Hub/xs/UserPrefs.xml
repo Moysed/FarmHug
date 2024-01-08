@@ -1,20 +1,25 @@
 ﻿<Properties StartupConfiguration="{C879179F-74B0-49F4-8E78-8448BBAF9660}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="de77ac5f-00f8-4686-bb3f-b3224b5d8c75" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="15d008e8-d50e-48f8-aa65-ba7637645fda" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LoadScene.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Ground.cs">
     <Files>
-      <File FileName="../../../../../Library/Mobile Documents/com~apple~CloudDocs/Moblie Game/Mobile_Lab_5/Assets/Scripts/HeroVirtualController.cs" Line="1" Column="1" />
-      <File FileName="../../../../../Library/Mobile Documents/com~apple~CloudDocs/Moblie Game/Mobile_Lab_5/Assets/Scripts/VirtualButtonState.cs" Line="1" Column="1" />
-      <File FileName="../../../../../Library/Mobile Documents/com~apple~CloudDocs/Moblie Game/Mobile_Lab_5/Assets/Scripts/VirtualJoyStick.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/LoadScene.cs" Line="30" Column="2" />
+      <File FileName="../../../../../Library/Mobile Documents/com~apple~CloudDocs/Moblie Game/Mobile_Lab_5/Assets/Scripts/HeroVirtualController.cs" />
+      <File FileName="../../../../../Library/Mobile Documents/com~apple~CloudDocs/Moblie Game/Mobile_Lab_5/Assets/Scripts/VirtualButtonState.cs" />
+      <File FileName="../../../../../Library/Mobile Documents/com~apple~CloudDocs/Moblie Game/Mobile_Lab_5/Assets/Scripts/VirtualJoyStick.cs" />
+      <File FileName="Assets/Scripts/LoadScene.cs" />
+      <File FileName="Assets/Scripts/DialogSystem.cs" Line="43" Column="35" />
+      <File FileName="Assets/Data/DialogScripts.txt" Line="4" Column="21" />
+      <File FileName="Assets/Ground.cs" Line="12" Column="87" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FarmHug Hub" expanded="True">
             <Node name="Assets" expanded="True">
+              <Node name="Data" expanded="True" />
               <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
@@ -22,7 +27,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

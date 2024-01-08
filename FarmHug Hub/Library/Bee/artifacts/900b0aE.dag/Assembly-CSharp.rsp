@@ -364,6 +364,8 @@
 "Assets/Hero Knight - Pixel Art/Demo/Sensor_HeroKnight.cs"
 "Assets/Scripts/DialogSystem.cs"
 "Assets/Scripts/LoadScene.cs"
+"Assets/Scripts/VirtualController.cs"
+"Assets/Scripts/VirtualJoyStick.cs"
 -langversion:9.0
 
 /deterministic
