@@ -19,12 +19,12 @@ public class Sensor_HeroKnight : MonoBehaviour {
         return m_ColCount > 0;
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter(SphereCollider other)
     {
         m_ColCount++;
     }
 
-    void OnTriggerExit2D(Collider2D other)
+    void OnTriggerExit(SphereCollider other)
     {
         m_ColCount--;
     }

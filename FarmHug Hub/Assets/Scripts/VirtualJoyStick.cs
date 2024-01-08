@@ -36,7 +36,7 @@ public class VirtualJoyStick : MonoBehaviour, IPointerDownHandler,
             pos.x = (pos.x / _Contrainer.sizeDelta.x);
             pos.y = (pos.y / _Contrainer.sizeDelta.y);
 
-            _inputVector = new Vector3(pos.x * 2 + 1, 0, pos.y * 2 - 1);
+            _inputVector = new Vector3(pos.x * 2 , 0, pos.y * 2 );
             _inputVector = (_inputVector.magnitude > 1.0f) ?
                             _inputVector.normalized : _inputVector;
 

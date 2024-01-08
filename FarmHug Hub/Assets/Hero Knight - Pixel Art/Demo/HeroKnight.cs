@@ -9,7 +9,7 @@ public class HeroKnight : MonoBehaviour {
     [SerializeField] GameObject m_slideDust;
 
     private Animator            m_animator;
-    private Rigidbody2D         m_body2d;
+    private Rigidbody       m_body3d;
     private Sensor_HeroKnight   m_groundSensor;
     private Sensor_HeroKnight   m_wallSensorR1;
     private Sensor_HeroKnight   m_wallSensorR2;
@@ -27,7 +27,7 @@ public class HeroKnight : MonoBehaviour {
     void Start ()
     {
         m_animator = GetComponent<Animator>();
-        m_body2d = GetComponent<Rigidbody2D>();
+        m_body3d = GetComponent<Rigidbody>();
         m_groundSensor = transform.Find("GroundSensor").GetComponent<Sensor_HeroKnight>();
         m_wallSensorR1 = transform.Find("WallSensor_R1").GetComponent<Sensor_HeroKnight>();
         m_wallSensorR2 = transform.Find("WallSensor_R2").GetComponent<Sensor_HeroKnight>();
@@ -62,10 +62,10 @@ public class HeroKnight : MonoBehaviour {
 
         // Move
         if (!m_rolling )
-            m_body2d.velocity = new Vector2(inputX * m_speed, m_body2d.velocity.y);
+            m_body3d.velocity = new Vector2(inputX * m_speed, m_body3d.velocity.y);
 
         //Set AirSpeed in animator
-        m_animator.SetFloat("AirSpeedY", m_body2d.velocity.y);
+        m_animator.SetFloat("AirSpeedY", m_body3d.velocity.y);
 
         // -- Handle Animations --
         //Wall Slide
@@ -100,7 +100,7 @@ public class HeroKnight : MonoBehaviour {
         {
                 m_rolling = true;
                 m_animator.SetTrigger("Roll");
-                m_body2d.velocity = new Vector2(m_facingDirection * m_rollForce, m_body2d.velocity.y);
+                m_body3d.velocity = new Vector2(m_facingDirection * m_rollForce, m_body3d.velocity.y);
         }
         //Jump
         else if (Input.GetKeyDown("space"))
@@ -139,7 +139,7 @@ public class HeroKnight : MonoBehaviour {
 
     public void ActionBodyMove(float inputX)
     {
-        m_body2d.velocity = new Vector2(inputX * m_speed, m_body2d.velocity.y);
+        m_body3d.velocity = new Vector2(inputX * m_speed, m_body3d.velocity.y);
     }
 
     public bool ActionRun(float inputX)
@@ -184,7 +184,7 @@ public class HeroKnight : MonoBehaviour {
             m_animator.SetTrigger("Jump");
             m_grounded = false;
             m_animator.SetBool("Grounded", m_grounded);
-            m_body2d.velocity = new Vector2(m_body2d.velocity.x, m_jumpForce);
+            m_body3d.velocity = new Vector2(m_body3d.velocity.x, m_jumpForce);
             m_groundSensor.Disable(0.2f);
         }
     }
