@@ -4,22 +4,36 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
+
+    public VirtualController _vc;
+
+    private void Awake()
+    {
+        _vc = new VirtualController();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Enter Collision");
         CollectItem collectItem = other.GetComponent<CollectItem>();
-        if (Input.GetKeyDown(KeyCode.F))
+        if (collectItem != null)
         {
-            collectItem.capsuleCollect();
-            gameObject.SetActive(false);
+            if (_vc.m_Collect == true)
+            {
+                collectItem.capsuleCollect();
+                gameObject.SetActive(false);
+            }
         }
     }
+
     private void OnTriggerStay(Collider other)
     {
+        Debug.Log("Stay Collision");
         CollectItem collectItem = other.GetComponent<CollectItem>();
 
         if (collectItem != null)
         {
-            if (Input.GetKeyDown(KeyCode.F))
+            if (_vc.m_Collect == true)
             {
                 collectItem.capsuleCollect();
                 gameObject.SetActive(false);
@@ -28,6 +42,19 @@ public class Item : MonoBehaviour
         }
     }
 
-    
+    private void OnTriggerExit(Collider other)
+    {
+        Debug.Log("Exit Collision");
+        CollectItem collectItem = other.GetComponent<CollectItem>();
+
+        if (collectItem != null)
+        {
+            if (_vc.m_Collect == true)
+            {
+                //collectItem.capsuleCollect();
+                gameObject.SetActive(true);
+            }
+        }
+    }
 }
     

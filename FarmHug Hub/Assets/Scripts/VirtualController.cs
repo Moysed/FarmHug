@@ -11,28 +11,35 @@ public class VirtualController : MonoBehaviour
     private bool m_Block;
     public VirtualButtonState _BlockButton;*/
     //Key Virtual JoyStick
+
     public VirtualJoyStick _VirtualJoy;
+
+    public VirtualButtonState _CollectButton;
+    public bool m_Collect;
+
+    public CollectItem collectItem;
 
     public void Start()
     {
         _player = GetComponent<HeroKnight>();
+        collectItem = new CollectItem();
     }
 
     private void FixedUpdate()
     {
-
-        // Jump State
-        /*if (_JumpButton._currentState == VirtualButtonState.State.Down
-                                   && m_Jump == false)
+        
+        //Collect State
+        if (_CollectButton._currentState == VirtualButtonState.State.Down
+                                   && m_Collect== false)
         {
-            m_Jump = true;
-            _player.ActionJump();
+            m_Collect = true;
+            collectItem.capsuleCollect();
         }
-        else if (_JumpButton._currentState == VirtualButtonState.State.Up
-                                    && m_Jump == true)
+        else if (_CollectButton._currentState == VirtualButtonState.State.Up
+                                    && m_Collect == true)
         {
-            m_Jump = false;
-        }*/
+            m_Collect = false;
+        }
 
         _player.ActionSwapDirection(_VirtualJoy.InputVector.x);
         _player.ActionBodyMove(_VirtualJoy.InputVector.x);
