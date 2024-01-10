@@ -350,7 +350,6 @@ MonoBehaviour:
   _VirtualJoy: {fileID: 1602173478}
   _CollectButton: {fileID: 1408509809}
   m_Collect: 0
-  collectItem: {fileID: 0}
 --- !u!54 &564045825
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -404,7 +403,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8413529789942519730, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
   m_PrefabInstance: {fileID: 1520643037}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &564045830
+--- !u!114 &564045834
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -413,9 +412,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 564045817}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32001dc4c1e9fad4eb2be07909835ac9, type: 3}
+  m_Script: {fileID: 11500000, guid: a93aff5bae3f946e19503762c994da27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _vc: {fileID: 564045824}
 --- !u!1 &673513698
 GameObject:
   m_ObjectHideFlags: 0
@@ -1246,6 +1246,10 @@ PrefabInstance:
       propertyPath: m_GravityScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9117128348835321587, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 827722496337519530, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
     - {fileID: 3960872287899394342, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
@@ -1266,7 +1270,7 @@ PrefabInstance:
       addedObject: {fileID: 564045825}
     - targetCorrespondingSourceObject: {fileID: 6323719953710832613, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 564045830}
+      addedObject: {fileID: 564045834}
     - targetCorrespondingSourceObject: {fileID: 111755813442870902, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1714646581}
@@ -1298,7 +1302,7 @@ GameObject:
   - component: {fileID: 1538185187}
   m_Layer: 0
   m_Name: Cylinder
-  m_TagString: Untagged
+  m_TagString: OBJ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1385,7 +1389,7 @@ Transform:
   m_GameObject: {fileID: 1538185181}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.44, y: 0, z: -15.59}
+  m_LocalPosition: {x: -9.44, y: 1.01, z: -15.59}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

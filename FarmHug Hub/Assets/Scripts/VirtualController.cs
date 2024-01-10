@@ -17,12 +17,9 @@ public class VirtualController : MonoBehaviour
     public VirtualButtonState _CollectButton;
     public bool m_Collect;
 
-    public CollectItem collectItem;
-
     public void Start()
     {
         _player = GetComponent<HeroKnight>();
-        collectItem = new CollectItem();
     }
 
     private void FixedUpdate()
@@ -33,12 +30,13 @@ public class VirtualController : MonoBehaviour
                                    && m_Collect== false)
         {
             m_Collect = true;
-            collectItem.capsuleCollect();
+            Debug.Log(m_Collect);
         }
         else if (_CollectButton._currentState == VirtualButtonState.State.Up
                                     && m_Collect == true)
         {
             m_Collect = false;
+            Debug.Log(m_Collect);
         }
 
         _player.ActionSwapDirection(_VirtualJoy.InputVector.x);

@@ -369,6 +369,7 @@
 "Assets/Scripts/DialogSystem.cs"
 "Assets/Scripts/Item.cs"
 "Assets/Scripts/LoadScene.cs"
+"Assets/Scripts/PickItem.cs"
 "Assets/Scripts/VirtualButtonState.cs"
 "Assets/Scripts/VirtualController.cs"
 "Assets/Scripts/VirtualJoyStick.cs"

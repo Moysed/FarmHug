@@ -73,6 +73,7 @@
     <Compile Include="Assets/Ground.cs" />
     <Compile Include="Assets/Scripts/CollectItem.cs" />
     <Compile Include="Assets/Scripts/DialogSystem.cs" />
+    <Compile Include="Assets/Scripts/PickItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Data/DialogScripts.txt" />
