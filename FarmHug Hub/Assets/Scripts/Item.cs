@@ -5,20 +5,21 @@ using UnityEngine;
 public class Item : MonoBehaviour
 {
 
-    public VirtualController _vc;
+    
 
     private void Awake()
     {
-        _vc = new VirtualController();
+        
     }
 
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("Enter Collision");
         CollectItem collectItem = other.GetComponent<CollectItem>();
+        VirtualController vc = other.GetComponent<VirtualController>();
         if (collectItem != null)
         {
-            if (_vc.m_Collect == true)
+            if (vc.m_Collect == true)
             {
                 collectItem.capsuleCollect();
                 gameObject.SetActive(false);
@@ -30,10 +31,10 @@ public class Item : MonoBehaviour
     {
         Debug.Log("Stay Collision");
         CollectItem collectItem = other.GetComponent<CollectItem>();
-
+        VirtualController vc = other.GetComponent<VirtualController>();
         if (collectItem != null)
         {
-            if (_vc.m_Collect == true)
+            if (vc.m_Collect == true)
             {
                 collectItem.capsuleCollect();
                 gameObject.SetActive(false);
@@ -46,10 +47,10 @@ public class Item : MonoBehaviour
     {
         Debug.Log("Exit Collision");
         CollectItem collectItem = other.GetComponent<CollectItem>();
-
+        VirtualController vc = other.GetComponent<VirtualController>();
         if (collectItem != null)
         {
-            if (_vc.m_Collect == true)
+            if (vc.m_Collect == true)
             {
                 //collectItem.capsuleCollect();
                 gameObject.SetActive(true);

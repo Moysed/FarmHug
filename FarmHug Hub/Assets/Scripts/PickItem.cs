@@ -4,33 +4,41 @@ using UnityEngine;
 
 public class PickItem : MonoBehaviour
 {
-    public VirtualController _vc;
+
 
     private void Awake()
     {
-        _vc = new VirtualController();
+
     }
 
-    private void OnCollisionEnter(Collision target)
+    private void OnTriggerEnter(Collider target)
     {
-        if (target.gameObject.tag == "OBJ")
+        VirtualController _vc = target.GetComponent<VirtualController>();
+        if (_vc != null)
         {
-            Debug.Log("Item Collision");
-            if (_vc.m_Collect != false)
+            if (target.gameObject.tag == "OBJ")
             {
-                Destroy(target.gameObject);
+                Debug.Log("Item Collision");
+                if (_vc.m_Collect != false)
+                {
+                    Destroy(target.gameObject);
+                }
             }
         }
     }
 
-    private void OnCollisionStay(Collision target)
+    private void OnTriggerStay(Collider target)
     {
-        if (target.gameObject.tag == "OBJ")
+        VirtualController _vc = target.GetComponent<VirtualController>();
+        if (_vc != null)
         {
-            Debug.Log("Item Collision Stay");
-            if (_vc.m_Collect != false)
+            if (target.gameObject.tag == "OBJ")
             {
-                Destroy(target.gameObject);
+                Debug.Log("Item Collision");
+                if (_vc.m_Collect != false)
+                {
+                    Destroy(target.gameObject);
+                }
             }
         }
     }
