@@ -1,40 +1,28 @@
 ﻿<Properties StartupConfiguration="{C879179F-74B0-49F4-8E78-8448BBAF9660}|">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="83a9f64b-40bc-48ab-acd8-7d63c9a49349" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CameraMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/VirtualJoyStick.cs">
     <Files>
-      <File FileName="../../../../../Library/Mobile Documents/com~apple~CloudDocs/Moblie Game/Mobile_Lab_5/Assets/Scripts/HeroVirtualController.cs" />
-      <File FileName="../../../../../Library/Mobile Documents/com~apple~CloudDocs/Moblie Game/Mobile_Lab_5/Assets/Scripts/VirtualButtonState.cs" />
-      <File FileName="../../../../../Library/Mobile Documents/com~apple~CloudDocs/Moblie Game/Mobile_Lab_5/Assets/Scripts/VirtualJoyStick.cs" />
-      <File FileName="Assets/Scripts/LoadScene.cs" />
-      <File FileName="Assets/Scripts/DialogSystem.cs" />
-      <File FileName="Assets/Data/DialogScripts.txt" />
-      <File FileName="Assets/Ground.cs" />
-      <File FileName="Assets/Scripts/VirtualJoyStick.cs" />
-      <File FileName="Assets/Hero Knight - Pixel Art/Demo/HeroKnight.cs" />
-      <File FileName="Assets/Scripts/VirtualController.cs" />
-      <File FileName="Assets/Scripts/CameraMovement.cs" Line="53" Column="1" />
-      <File FileName="Assets/Hero Knight - Pixel Art/Demo/Sensor_HeroKnight.cs" />
+      <File FileName="../../../../../Library/Mobile Documents/com~apple~CloudDocs/Moblie Game/Mobile_Lab_5/Assets/Scripts/HeroVirtualController.cs" Line="9" Column="5" />
+      <File FileName="../../../../../Library/Mobile Documents/com~apple~CloudDocs/Moblie Game/Mobile_Lab_5/Assets/Scripts/VirtualJoyStick.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/VirtualJoyStick.cs" Line="28" Column="21" />
+      <File FileName="Assets/Scripts/VirtualController.cs" Line="7" Column="19" />
+      <File FileName="Assets/Hero Knight - Pixel Art/Demo/HeroKnight.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerScript.cs" Line="8" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FarmHug Hub" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Data" expanded="True" />
-              <Node name="Hero Knight - Pixel Art" expanded="True">
-                <Node name="Demo" expanded="True" />
-              </Node>
-              <Node name="Scripts" expanded="True" />
-            </Node>
+          <Node name="FarmHug Hub" selected="True">
+            <Node name="Assets" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="114a6953-871b-472c-a083-3df56205c788" />
 </Properties>

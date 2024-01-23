@@ -1,0 +1,684 @@
+Unity Editor version:    2022.3.13f1 (5f90a5ebde0f)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.2.1 (Build 23C71)
+Darwin version:          23.2.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/2022.3.13f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/parpaploy/Desktop/Portfolio/Y2S2/FarmHug/FarmHug Hub
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53270
+Successfully changed project path to: /Users/parpaploy/Desktop/Portfolio/Y2S2/FarmHug/FarmHug Hub
+/Users/parpaploy/Desktop/Portfolio/Y2S2/FarmHug/FarmHug Hub
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7967461376] Host "[IP] 10.0.3.66 [Port] 0 [Flags] 2 [Guid] 1687757819 [EditorId] 1687757819 [Version] 1048832 [Id] OSXEditor(0,Ramitas-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7967461376] Host "[IP] 10.0.3.66 [Port] 0 [Flags] 2 [Guid] 1687757819 [EditorId] 1687757819 [Version] 1048832 [Id] OSXEditor(0,Ramitas-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 10.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
+[Subsystems] Discovering subsystems at path /Applications/2022.3.13f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/parpaploy/Desktop/Portfolio/Y2S2/FarmHug/FarmHug Hub/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
+Initialize mono
+Mono path[0] = '/Applications/2022.3.13f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/2022.3.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56853
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/2022.3.13f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/2022.3.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/2022.3.13f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/2022.3.13f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /Applications/2022.3.13f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005598 seconds.
+- Loaded All Assemblies, in  0.257 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 78 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.327 seconds
+Domain Reload Profiling: 585ms
+	BeginReloadAssembly (83ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (85ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (103ms)
+			TypeCache.Refresh (102ms)
+				TypeCache.ScanAssembly (92ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (328ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (291ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (211ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (51ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.399 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.359 seconds
+Domain Reload Profiling: 759ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (273ms)
+		LoadAssemblies (180ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (102ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (359ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (248ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (182ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/2022.3.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3262 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (124.5 KB). Loaded Objects now: 3743.
+Memory consumption went from 145.2 MB to 145.1 MB.
+Total: 2.253167 ms (FindLiveObjects: 0.109291 ms CreateObjectMapping: 0.047250 ms MarkObjects: 2.013833 ms  DeleteObjects: 0.082417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (76.3 KB). Loaded Objects now: 3743.
+Memory consumption went from 92.3 MB to 92.2 MB.
+Total: 11.242500 ms (FindLiveObjects: 0.479167 ms CreateObjectMapping: 0.053750 ms MarkObjects: 10.598417 ms  DeleteObjects: 0.110917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19285.035492 seconds.
+  path: Assets/Fonts/fine-college/Fine College.ttf
+  artifactKey: Guid(4f95ed4c45eec4abf8cdb826a6199f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/fine-college/Fine College.ttf using Guid(4f95ed4c45eec4abf8cdb826a6199f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26dab6353da6665e6f54371b700e72d3') in 0.402078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 97.648178 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark23.png
+  artifactKey: Guid(55edfad3b0552004593bda953138cbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark23.png using Guid(55edfad3b0552004593bda953138cbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ba1fcca717879c9befcb054a2a8fa8') in 0.024949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005651 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark27.png
+  artifactKey: Guid(25053d7b5d2e00b4d863c6e308390061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark27.png using Guid(25053d7b5d2e00b4d863c6e308390061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe179eae2a6f584fddabdcf94ebc8c40') in 0.005685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.040773 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark29.png
+  artifactKey: Guid(246344cabf648884d87c799c5662df40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark29.png using Guid(246344cabf648884d87c799c5662df40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2d43dceea27a77bed6c19549988703') in 0.002455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.267714 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark31.png
+  artifactKey: Guid(f986f616a27d07047b2261c6ce3bcbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark31.png using Guid(f986f616a27d07047b2261c6ce3bcbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f63f327dfc7eaf709c3844cb1d46c6e') in 0.004773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.034254 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark33.png
+  artifactKey: Guid(9c348ab9684807945b1e05e6612cc3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark33.png using Guid(9c348ab9684807945b1e05e6612cc3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba143d4097fe4a312806e9dc5cd57b6') in 0.002851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark35.png
+  artifactKey: Guid(ace2126dbceca904e8235818a530b885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark35.png using Guid(ace2126dbceca904e8235818a530b885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4493e0384bf61a3bf153e6d854764c15') in 0.003051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark39.png
+  artifactKey: Guid(45e95dd1abc1fd945bff1056f69ec1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark39.png using Guid(45e95dd1abc1fd945bff1056f69ec1a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1761d9c4a38c7d2b7afe83cf8dc652') in 0.002441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark38.png
+  artifactKey: Guid(8be47108d7204554399b728084ca317f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark38.png using Guid(8be47108d7204554399b728084ca317f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49fef33b7a7423b153ab4f2cacc52841') in 0.002427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.030794 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark42.png
+  artifactKey: Guid(13a85a7363a96674db3891c436403d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark42.png using Guid(13a85a7363a96674db3891c436403d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30e78ed451bbb58aa11590e9133004a') in 0.004151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark48.png
+  artifactKey: Guid(decfb2e6b10bdb34a886dc54dbe0bbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark48.png using Guid(decfb2e6b10bdb34a886dc54dbe0bbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410cefc18e8ffc24ee30270e0699a3e3') in 0.002473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark49.png
+  artifactKey: Guid(9f67841acfbbeab49b33fc1d7efaf91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark49.png using Guid(9f67841acfbbeab49b33fc1d7efaf91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11649756afa556b55ed28fa51a906d6c') in 0.002564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark47.png
+  artifactKey: Guid(7216f8808632db649afd8099feb604ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedDark/shadedDark47.png using Guid(7216f8808632db649afd8099feb604ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75009a984b8a246381c05e76bc3a3348') in 0.001970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.042973 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight03.png
+  artifactKey: Guid(c360c21019f147249ac1f0781cdad5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight03.png using Guid(c360c21019f147249ac1f0781cdad5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdefd3bc6b6f7483e1315e8baf9c0da') in 0.002830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001212 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight09.png
+  artifactKey: Guid(30960813cc68a3e4d8818f5d019b40f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight09.png using Guid(30960813cc68a3e4d8818f5d019b40f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '199129380f4bbb8684219bfa9d2394ad') in 0.003197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight04.png
+  artifactKey: Guid(8e9cbd52dff56c842abae3afacd869a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight04.png using Guid(8e9cbd52dff56c842abae3afacd869a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3b7db529b6f6bf2b8f6c30fd8b015d') in 0.004551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight08.png
+  artifactKey: Guid(46b46f9ebd84a31458fd49e7414cabad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight08.png using Guid(46b46f9ebd84a31458fd49e7414cabad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f7ddab6bb95a3a829ddc6952c55f0b') in 0.002718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016688 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight12.png
+  artifactKey: Guid(a6378f9610434564c95da761a0eb24ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight12.png using Guid(a6378f9610434564c95da761a0eb24ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9c7b8c8e87f9d54e3d5424ef346997') in 0.017463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000948 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight14.png
+  artifactKey: Guid(05c3b83e00388604a93498c945ae4a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight14.png using Guid(05c3b83e00388604a93498c945ae4a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0fe1d7524fc51a7d1056e58e9b9a3b') in 0.002550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight15.png
+  artifactKey: Guid(54aaea7d358713349af4e46002c98460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight15.png using Guid(54aaea7d358713349af4e46002c98460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705f43ee155bfd203f594f4227da5411') in 0.002278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.014243 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight18.png
+  artifactKey: Guid(04c08ab6c936d004cb6661b0017da478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight18.png using Guid(04c08ab6c936d004cb6661b0017da478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b413da1655b728fffb5e04bb72dca36') in 0.002328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight20.png
+  artifactKey: Guid(3582cd529b414434ba2cd91262025a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight20.png using Guid(3582cd529b414434ba2cd91262025a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64986ba6c2e2e110f069c02402bb4149') in 0.002193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.014189 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight22.png
+  artifactKey: Guid(9a0adbd24a881b14abf2b9436847329c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight22.png using Guid(9a0adbd24a881b14abf2b9436847329c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b27bc6290db4d0bdff4abf4bbcfbfd') in 0.002576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015720 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight24.png
+  artifactKey: Guid(362b969cdc90d2642bef44f9046c0087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight24.png using Guid(362b969cdc90d2642bef44f9046c0087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5145b75eb6831c8befe016de62e04c7f') in 0.002316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight25.png
+  artifactKey: Guid(071d1b53beeadcd438a32ee07d792568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight25.png using Guid(071d1b53beeadcd438a32ee07d792568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b8eab767f962a69ade518ee7f3595b') in 0.002179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.033232 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight28.png
+  artifactKey: Guid(a422b3578d336734fa936156adee5bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight28.png using Guid(a422b3578d336734fa936156adee5bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce94bf934e2e4efbd4464c17706d7aa') in 0.002358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight30.png
+  artifactKey: Guid(212fa89c6303e1e429a0c9a52710c516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight30.png using Guid(212fa89c6303e1e429a0c9a52710c516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22bfbdcd2e9f0b75988267ac9b54179') in 0.002681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight32.png
+  artifactKey: Guid(252338f39a45bfc4da1f66f2b51672f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight32.png using Guid(252338f39a45bfc4da1f66f2b51672f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95365022debe21a2bd45e94601893047') in 0.002106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.033730 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight34.png
+  artifactKey: Guid(f9cef369032ae2c409367c8e8130a4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight34.png using Guid(f9cef369032ae2c409367c8e8130a4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f8474710a2c975d38c7a3d95d52876') in 0.002852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight36.png
+  artifactKey: Guid(d4c33abe164db4b4e98ed880272b82cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight36.png using Guid(d4c33abe164db4b4e98ed880272b82cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ff0d7373e47041adeee0e415524e01') in 0.002247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight38.png
+  artifactKey: Guid(a6bac278055f3f943a40a849544a324c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight38.png using Guid(a6bac278055f3f943a40a849544a324c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11131bcfbfa64e67b8366ed7b773c778') in 0.002216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.037046 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight40.png
+  artifactKey: Guid(ee294fe17740144458246da41ff43f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight40.png using Guid(ee294fe17740144458246da41ff43f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25de2f6a67e0f1da3432182e1720935') in 0.003541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.033884 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight42.png
+  artifactKey: Guid(bfa625f28249c2842aba7b7b97f93bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight42.png using Guid(bfa625f28249c2842aba7b7b97f93bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7633e03dafcac6a284aa5f93e8795b85') in 0.002625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.063199 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight44.png
+  artifactKey: Guid(124011038b9802c48af3d00077231f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight44.png using Guid(124011038b9802c48af3d00077231f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a96355ed2c54de9f7e9d0ec11db136') in 0.002864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight48.png
+  artifactKey: Guid(91eeccd74fc79684288ec79448a55fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/shadedLight/shadedLight48.png using Guid(91eeccd74fc79684288ec79448a55fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9eb53cebefb224bc02eed932a43eb35') in 0.002589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.070392 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark22.png
+  artifactKey: Guid(b1f0cb2b69790be4fa81f26d1dcdcf46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark22.png using Guid(b1f0cb2b69790be4fa81f26d1dcdcf46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329ec5689eebf5eb7e90263c34df9844') in 0.002671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark23.png
+  artifactKey: Guid(110166bc82a4d1944b72d97d2956a7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark23.png using Guid(110166bc82a4d1944b72d97d2956a7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed03c8247063ba4081ab53017d75851') in 0.002474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark26.png
+  artifactKey: Guid(537c4a9e01e254746897b6d8043c5c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark26.png using Guid(537c4a9e01e254746897b6d8043c5c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f7c2cef6cc55cad80482533dd19fd8') in 0.004652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.019228 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark28.png
+  artifactKey: Guid(9fab85025222ccd4ca7fbeb1865a95d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark28.png using Guid(9fab85025222ccd4ca7fbeb1865a95d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f992e22711751bc0203b623dc8a91bb') in 0.002875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark29.png
+  artifactKey: Guid(627da8d41f611804ea7131fc594542ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark29.png using Guid(627da8d41f611804ea7131fc594542ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b4d503941c0a25ea2489ce97e0b6df') in 0.002364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark34.png
+  artifactKey: Guid(eb888758e930ede488cfc33cb1e5853b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark34.png using Guid(eb888758e930ede488cfc33cb1e5853b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b965cda0548de681e64404c40a2fe256') in 0.002754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark33.png
+  artifactKey: Guid(08237ff0529efdf41a9b36e102ca0166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark33.png using Guid(08237ff0529efdf41a9b36e102ca0166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ac0acca9396cac83ef740be97934d0') in 0.002585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark31.png
+  artifactKey: Guid(2a29ff33fb91a5e458a5deda12f019ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark31.png using Guid(2a29ff33fb91a5e458a5deda12f019ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3528c13d409ebea723daad64ac4f8fb3') in 0.005794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.025291 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark38.png
+  artifactKey: Guid(39055d6788eed0f449cd41fff712cd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark38.png using Guid(39055d6788eed0f449cd41fff712cd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934da6590e6327677758631ba4d29934') in 0.002890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark43.png
+  artifactKey: Guid(cd1980729aab3114ab82cddd70769ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark43.png using Guid(cd1980729aab3114ab82cddd70769ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8a4f1dea42f4122387fc1ceceacbdd') in 0.002355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark42.png
+  artifactKey: Guid(848594e7695097340b5fc722698e18e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark42.png using Guid(848594e7695097340b5fc722698e18e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d17fa2f08f939d54f5279d9ee6cb201') in 0.004217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark40.png
+  artifactKey: Guid(d700c6648551120408f1789d615e80c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark40.png using Guid(d700c6648551120408f1789d615e80c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545c89def777bff7660e3b82149eb97d') in 0.003093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.016757 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark46.png
+  artifactKey: Guid(7ae31ddbcaf91ac45a85344726023c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark46.png using Guid(7ae31ddbcaf91ac45a85344726023c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5444cf839c1c70bdc0c449e618e6dd') in 0.002811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark47.png
+  artifactKey: Guid(ae2454a368fb2124da2325ec196d5f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentDark/transparentDark47.png using Guid(ae2454a368fb2124da2325ec196d5f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a648afe5f60c1c9b0f8a20ae05e42f73') in 0.003420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.176317 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentLight/transparentLight22.png
+  artifactKey: Guid(d289719f76962854e9e90ff7f3728992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentLight/transparentLight22.png using Guid(d289719f76962854e9e90ff7f3728992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b3bde9b393f9bb244dc0b31850f29d') in 0.003942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentLight/transparentLight25.png
+  artifactKey: Guid(d9c28ca38bd359740aa6e03dcdc27a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentLight/transparentLight25.png using Guid(d9c28ca38bd359740aa6e03dcdc27a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f32b93568a1f51b9dcd2ddcdf7d6276') in 0.002813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentLight/transparentLight24.png
+  artifactKey: Guid(3033af15b26aadc4eb892cb37493e3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentLight/transparentLight24.png using Guid(3033af15b26aadc4eb892cb37493e3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37ea49595eda0bfbab4e3f8f10ce2d5') in 0.002211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.035716 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentLight/transparentLight36.png
+  artifactKey: Guid(ca264dc301459a2449ecc9f9a5a90c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentLight/transparentLight36.png using Guid(ca264dc301459a2449ecc9f9a5a90c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841c2b1b0736b0f857e70a383359ec02') in 0.003868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentLight/transparentLight39.png
+  artifactKey: Guid(a7baa7cc1aa482e449bbcf3471c36a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentLight/transparentLight39.png using Guid(a7baa7cc1aa482e449bbcf3471c36a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5206a292b0a926bfd602b63d6508ffd') in 0.002006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentLight/transparentLight38.png
+  artifactKey: Guid(cbc910cc4fb255448b64782393f14492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentLight/transparentLight38.png using Guid(cbc910cc4fb255448b64782393f14492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2214827fa60f58fc58f41539f6cc2d5a') in 0.002244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentLight/transparentLight43.png
+  artifactKey: Guid(ed69c7af9402f7b41bfdf53edb96622b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentLight/transparentLight43.png using Guid(ed69c7af9402f7b41bfdf53edb96622b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2012f76a66da1da6f40c41be3c241316') in 0.004074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002442 seconds.
+  path: Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentLight/transparentLight41.png
+  artifactKey: Guid(8b6c971f20827c247b31eeae9a2310ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Laboratory/Sprites/onscreenControls/Sprites/transparentLight/transparentLight41.png using Guid(8b6c971f20827c247b31eeae9a2310ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fe0600f721fb3c6b8eed083a0b7516') in 0.003865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
